@@ -2,9 +2,9 @@
 if(isset($_POST['email'])) {
      
     // CHANGE THE TWO LINES BELOW
-    $email_to = "sales@coffeeservices.co.nz";
+    $email_to = "sales@coffeeandteavending.com.au";
      
-    $email_subject = "New enquiry - Coffee Services";
+    $email_subject = "New enquiry - Coffee & Tea Vending Services";
      
      
     function died($error) {
@@ -72,7 +72,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- place your own success html below -->
 <h5>Thank you for contacting us. We will be in touch with you very soon.</h5>
-<a href="http://coffeeservices.co.nz">Back to site</a>
+<a href="https://coffeeandteavending.com.au/">Back to site</a>
  
 <?php
 }

@@ -2,6 +2,7 @@
 .services-image {
   background-size: cover;
 }
+
 selectors table tr,
 td,
 th {
@@ -10,49 +11,63 @@ th {
   text-align: center;
   color: #fff;
 }
+
 .beans-background,
 .selectors {
   padding-bottom: 0px;
 }
+
 .tick {
   background-image: url(../img/check-box.png);
 }
+
 .consumable-content {
   color: #000;
 }
+
 a.email:hover {
   color: orange;
 }
+
 .services-content {
   float: left;
   padding-right: 20px;
 }
+
 .services {
   margin-top: 0;
+  text-align: center;
 }
+
 .probootstrap-footer .copyright p {
   color: brown;
 }
+
 .machines {
   width: 100%;
 }
+
 .flexslider.less-height {
   height: 250px;
 }
+
 @media only screen and (max-width: 480px) {
   .flexslider.less-height {
     height: 800px;
   }
 }
+
 .topbar li a,
 .topbar li span,
 .topbar li i {
   color: #5b1405;
   padding: 5px;
 }
+
 .link-color a {
   color: brown;
 }
+
 img.about-us {
   vertical-align: middle;
   margin-left: auto;
@@ -60,27 +75,33 @@ img.about-us {
   display: block;
   width: 100%;
 }
+
 .machine-flexslider {
   position: relative;
-  z-index: 2;
+  z-index: 0;
   border: none;
   margin: 0;
   height: auto;
   border-radius: 0;
 }
+
 .topbar li {
   list-style: none;
 }
+
 .email-top {
   float: right;
 }
+
 .head {
   color: brown;
   font-family: none;
 }
+
 .upper-section-right {
   overflow: hidden;
 }
+
 .back-machines {
   padding: 10px;
   background: #5b1405;
@@ -95,6 +116,181 @@ img.about-us {
   margin-bottom: 20px;
 }
 
-.probootstrap-footer > .container {
+.probootstrap-footer>.container {
   margin-top: 20px;
+}
+
+/*New styles*/
+.now-available {
+  color: red;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+  z-index: 100;
+  display: none;
+}
+
+.cnt223 {
+  min-width: 30%;
+  min-height: 150px;
+  margin: 100px auto;
+  background: white;
+  position: relative;
+  z-index: 103;
+  padding: 15px 35px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #000;
+  width: 40%;
+}
+
+.cnt223 a {
+  text-decoration: none;
+}
+
+.cnt223 img {
+  width: 50%;
+}
+
+.cnt223 p {
+  clear: both;
+  color: #555555;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.cnt223 p a {
+  color: #d91900;
+  font-weight: bold;
+}
+
+.cnt223 .x {
+  float: right;
+  height: 35px;
+  left: 22px;
+  position: relative;
+  top: -25px;
+  width: 34px;
+}
+
+.cnt223 .x:hover {
+  cursor: pointer;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.close {
+  float: right;
+  color: black;
+}
+
+a.close:link {
+  color: black;
+}
+
+.probootstrap-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(20, 2, 0, 0.8);
+}
+
+.probootstrap-header .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.probootstrap-header .logo {
+  max-height: 110px;
+}
+
+.probootstrap-nav {
+  display: flex;
+  align-items: center;
+}
+
+.probootstrap-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.probootstrap-main-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.probootstrap-main-nav li a {
+  text-decoration: none;
+}
+
+.probootstrap-main-nav li a {
+  color: #000;
+}
+
+.probootstrap-main-nav li a.btn-primary {
+  background-color: orange;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.probootstrap-main-nav li a.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.probootstrap-main-nav li a {
+  color: #fff;
+}
+
+.probootstrap-slider {
+  position: relative;
+  height: auto;
+}
+
+.image-container {
+  position: relative;
+  z-index: 1;
+}
+
+.about-us {
+  width: 100%;
+  height: auto;
+}
+
+.btn-primary {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.text {
+  text-align: center;
+}
+
+.xxxl {
+  font-size: 64px !important;
+}
+
+.flexheight{
+  height: 160px;
 }
