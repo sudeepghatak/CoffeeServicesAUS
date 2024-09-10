@@ -20,44 +20,56 @@
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
-  <!-- Global site tag (gtag.js) - Google Ads: 928323235 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-928323235"></script>
+  <!-- Global site tag (gtag.js) - Google Ads: GTAGNUMBER -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-GTAGNUMBER"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
       dataLayer.push(arguments);
     }
     gtag("js", new Date());
-    gtag("config", "AW-928323235");
+    gtag("config", "AW-GTAGNUMBER");
   </script>
 </head>
 
 <body>
   <!-- START: header -->
-
+  <section>
+    <div class="text-right topbar">
+      <li class="email-top"><i class="icon-mail"></i><a class="email"
+          href="mailto:sales@coffeeandteavending.com.au">sales@coffeeandteavending.com.au</a></li>
+      <li><i class="icon-phone2"></i><span>0800 837 848</span></li>
+    </div>
+  </section>
   <div class="probootstrap-loader"></div>
 
-  <header role="banner" class="probootstrap-header">
-    <div class="container">
-      <a href="index.html"><img class="logo" src="img/logo.png" /></a>
+  <section class="probootstrap-slider flexslider">
+    <div class="flexheight">
 
-      <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
-      <div class="mobile-menu-overlay"></div>
-
-      <nav id="nav-menu-container" class="probootstrap-nav">
-        <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li class="active"><a href="machines.html">Machines</a></li>
-          <li><a href="rent-free-machines.html">Rent Free Machines</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="coffee-tea-supplies.html">Coffee and Tea Supplies</a></li>
-          <li><a class="orangecolor" href="contact.html">Contact</a></li>
-
-        </ul>
-      </nav>
     </div>
-  </header>
+    <header role="banner" class="probootstrap-header">
+      <div class="container">
+        <div class="header-content">
+          <a href="index.html"><img class="logo" src="img/logo.png" width="100px" height="100px"></a>
+          <nav id="nav-menu-container" class="probootstrap-nav">
+            <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="active"><a href="machines.html">Machines</a></li>
+              <li><a href="rent-free-machines.html">Rent Free Machines</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="coffee-tea-supplies.html">Coffee and Tea Supplies</a></li>
+              <li><a class="orangecolor" href="contact.html">Contact</a></li>
+
+            </ul>
+          </nav>
+          <div class="hamburger">
+            <i class="fa fa-bars"></i>
+          </div>
+        </div>
+    </header>
+  </section>
+
   <!-- END: header -->
   <section class="probootstrap-slider machine-flexslider">
     <div>
@@ -103,7 +115,7 @@
               </p>
             </div>
 
-            <div class="lower-section">
+            <div class="lower-section" style="margin-left: 35px; ">
               <p class="head">SUITABLE FOR:</p>
               <ul>
                 <li>Workplace</li>

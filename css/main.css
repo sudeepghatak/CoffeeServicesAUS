@@ -2880,7 +2880,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .upper-section-left img {
   padding: 10px;
-  height: 75%;
+  
 }
 
 .upper-section {
@@ -2924,6 +2924,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .machine-heading {
   font-size: 2.5em;
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* Upper section styling */
@@ -2940,7 +2941,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .upper-section-left img {
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
 }
 
 .upper-section-right {
@@ -2971,12 +2972,10 @@ table {
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
-  color: white;
+  
 }
 
-.eachdetails {
-  background-color: #b5651d;
-}
+
 
 .btn-primary {
   background-color: #6c757d;

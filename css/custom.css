@@ -205,7 +205,7 @@ a.close:link {
   left: 0;
   width: 100%;
   z-index: 2;
-  background-color: rgba(20, 2, 0, 0.8);
+  background-color: rgba(20, 2, 0, 1);
 }
 
 .probootstrap-header .header-content {
@@ -293,4 +293,7 @@ a.close:link {
 
 .flexheight{
   height: 160px;
+}
+.height-fifty {
+  padding-top: 50px;
 }
