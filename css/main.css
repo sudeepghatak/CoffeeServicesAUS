@@ -2962,7 +2962,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Table styling */
 table {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 60px;
   text-align: center;
 }
 
@@ -3321,7 +3321,7 @@ a.close:link {
 }
 
 .probootstrap-header {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
