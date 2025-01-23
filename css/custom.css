@@ -297,3 +297,27 @@ a.close:link {
 .height-fifty {
   padding-top: 50px;
 }
+.about-us-banner {
+  position: absolute;
+  top: 170px;
+  left: 85px;
+}
+
+.about-us-banner-ad {
+
+  width: 250px;
+  text-align: center;
+  color: white;
+  border: 10px solid white;
+  border-radius: 50%;
+  height: 250px;
+  padding-top: 30px;
+
+}
+
+.about-us-banner-heading {
+  text-align: center;
+  top: 170px;
+  color: orange;
+  font-weight: bold;
+}
